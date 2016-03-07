@@ -1,0 +1,124 @@
+
+nav {
+
+  text-align:center;
+  position: static;
+}
+
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.nav {
+  border-right: 1px solid black;
+}
+
+nav ul {
+  display: inline;
+}
+
+.home {
+  font-size: 34px;
+  text-align: center;
+}
+
+.snapa {
+  font-size: 34px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.snapa a {
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 8px 18px;
+  position: static;
+}
+
+
+a:active {
+	top: 2px;
+}
+
+a {
+  height: 60px;
+  line-height: 60px;
+  color: black;
+  text-decoration: none;
+}
+
+/* La barre de naviguation s'arrête ici*/
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home img {
+  width: 200px;
+  height: 100px;
+}
+
+.test {
+  width: 320px;
+  height: 212px;
+  border: 1px solid black;
+}
+
+#footer {
+  color: Black;
+  font-size: 13px;
+  text-align: center;
+  padding-bot: 1px;
+  padding-top: 50px;
+}
+
+.chartres {
+  position:relative;
+  display:block;
+}
+
+iframe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.map {
+  text-align: -moz-center;
+  text-align: -webkit-center;
+  padding-bottom: 5 0px;
+}
+.telogo {
+  width: 75px;
+  height: 75px; 
+
+}
+
+.contacts-chartres {  
+  text-align: center;
+}
+
+.contacts-dreux {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .contacts-laigle {
+    text-align: center;
+  }
