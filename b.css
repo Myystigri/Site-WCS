@@ -76,7 +76,11 @@ body {
 .test {
   width: 320px;
   height: 212px;
-  border: 1px solid black;
+}
+
+.teest {
+  width: 300px;
+  height: 300px;
 }
 
 #footer {
@@ -119,6 +123,6 @@ iframe {
     border-bottom: 1px solid black;
   }
 
-  .contacts-laigle {
+.contacts-laigle {
     text-align: center;
   }
