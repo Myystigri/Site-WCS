@@ -1,4 +1,9 @@
 
+ul {
+  list-style: none;
+  display:inline;
+}
+
 nav {
 
   text-align:center;
@@ -65,7 +70,6 @@ a {
 
 /* La barre de naviguation s'arrête ici*/
 
-
 body {
   font-family: 'Lato', sans-serif;
   background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
@@ -74,7 +78,6 @@ body {
   background-repeat: no-repeat;
   margin: 0;
 }
-
 
 .gallery {
   display: flex;
@@ -88,7 +91,7 @@ body {
 }
 
 .test {
-  width: 80%;
+  width: 27%;
   height: 100%;  
 }
 
@@ -116,6 +119,7 @@ iframe {
   text-align: -webkit-center;
   padding-bottom: 5 0px;
 }
+
 .telogo {
   width: 75px;
   height: 75px;
@@ -136,14 +140,10 @@ iframe {
 }
 
 .contacts-dreux {
+  text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   background-color: rgba(0, 0, 0, 0.3);
-}
-
-.dreux {
-  text-align: center;
-
 }
 
 .contacts-laigle {
@@ -157,6 +157,7 @@ iframe {
 .teest {
   width : 50%;
 }
+
 .accueil {
   text-align: center;
   margin-top: 50px;
@@ -167,31 +168,40 @@ iframe {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.horaires {
-  list-style: none;
+#horaires-chartres {
+  display:none;
+  margin-left:0;
+  padding-left:0;
+}
+
+#horaires-laigle {
+  display:none;
+  margin-left:0;
+  padding-left:0;
+}
+
+#horaires-dreux {
+  display:none;
   margin-left:0;
   padding-left:0;
 }
 
 .text {
   font-size: 20px;
- 
-}
+ }
 
 #cuicui {
-  height: 3%;
   width: 3%;
 }
 
 #zuckerberg {
-  height: 3%;
   width: 3%;
 }
 
 .logos {
-  text-align: center;
-  margin-top: 20px;
+  text-align: center;  
   margin-bottom: -10px;
+  padding-top: 180px;
 }
 
 .logos-index {
@@ -207,4 +217,8 @@ iframe {
   font-size: 13px;
   text-align: center;
   padding-bot: 1px;
+}
+
+.horaires {
+  display:none;
 }

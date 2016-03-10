@@ -7,9 +7,10 @@
     <script language="javascript" type="text/javascript">
       function bascule(horaires) {
         etat=document.getElementById(horaires).style.display;
-        if(etat=="none"){
+        if(etat=="none") {
           document.getElementById(horaires).style.display="block";
-        }else {
+        }
+        else {
           document.getElementById(horaires).style.display="none";  
         }
       }
@@ -28,12 +29,12 @@
         <li><a href="contact.html"><b>Nous contacter</b></a></li>
       </ul>
     </nav>
-    <a href="contact2.html"><p><img class="telogo" src="telogo.png"/></p></a> 
+    <a href="contact.html"><p><img class="telogo" src="telogo.png"/></p></a> 
     <div class="contacts-chartres">
       <div class="ville">
-        <p><b><a href="" onclick="bascule('horaires-chartres'); return false;">CHARTRES</a></b></p>
+        <p><b><a href="" onclick="bascule('horaires-chartres2'); return false;">CHARTRES</a></b></p>
       </div>
-      <div id="horaires-chartres">
+      <div id="horaires-chartres2">
         <ul>
           <li>Du Lundi au Vendredi : 8H30-12H30  14H30-18H30 </li>
           <li>Les Samedis : 9H-12H  14H-17H30</li>
@@ -43,9 +44,9 @@
     </div>
     <div class="contacts-dreux">
       <div class="ville">
-        <p><b><a href="" onclick="bascule('horaires-dreux'); return false;">DREUX</a></b></p>
+        <p><b><a href="" onclick="bascule('horaires-dreux2'); return false;">DREUX</a></b></p>
       </div>
-      <div id="horaires-dreux">
+      <div id="horaires-dreux2">
         <ul>
           <li>Du Lundi au Vendredi : 8H30-12H  13H30-18H </li>
           <li>Les Samedis : 8H30-12H 13H30-16H30</li>
@@ -55,9 +56,9 @@
     </div>
     <div class="contacts-laigle">
       <div class="ville">
-        <p><b><a href="" onclick="bascule('horaires-laigle'); return false;">L'AIGLE</a></b></p>
+        <p><b><a href="" onclick="bascule('horaires-laigle2'); return false;">L'AIGLE</a></b></p>
       </div>
-      <div id="horaires-laigle">
+      <div id="horaires-laigle2">
         <ul>
           <li>Du Lundi au Vendredi : 9H-12H  13H30-18H30 </li>
           <li>Les Samedis : 9H30-12H  14H-17h30 </li>
@@ -72,4 +73,3 @@
     <p id = "footer">&copy; S.N.A.P.A 2016</p>
   </body>
 </html>
-
